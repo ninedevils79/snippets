@@ -18,10 +18,8 @@ This will disable all repos
 
 #### Attaching subscriptions 
 
-`/usr/bin/subscription-manager repos --enable=rhel-7-server-rpms \
-&& /usr/bin/subscription-manager repos --enable=rhel-7-server-rh-common-rpms \
-&& /usr/bin/subscription-manager repos --enable=rhel-7-server-extras-rpms
-`
+/usr/bin/subscription-manager repos --enable=rhel-7-server-rpms --enable=rhel-7-server-rh-common-rpms --enable=rhel-7-server-extras-rpms
+
 
 #### Especially for CloudForms
 `subscription-manager repos --enable=cf-me-5.5-for-rhel-7-rpms`
